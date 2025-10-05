@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Streetwear</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">STREETWEAR</div>
+    <div class="tagline">Vive tu estilo</div>
+    <div class="logo-img">Street Wear</div>
+  </header>
+
+  <nav>
+    <ul>
+      <li>Inicio</li>
+      <li>Productos</li>
+      <li>Carrito (0)</li>
+      <li>Contacto</li>
+    </ul>
+  </nav>
+
+  <section class="banner">
+    <h1>EL FLOW NO SE NACE SE HACE</h1>
+    <p>Descubre prendas urbanas con un toque moderno, ideal para la calle, el gym y el ocio.</p>
+    <img src="https://i.imgur.com/1XKzF2P.jpg" alt="Modelo con hoodie" />
+  </section>
+
+  <section class="productos">
+    <h2>Productos</h2>
+    <div class="item">
+      <img src="https://i.imgur.com/2YzF3aL.jpg" alt="Camiseta Street Basic" />
+      <p>Camiseta Street Basic - $25.00</p>
+      <button>Ver carrito</button>
+    </div>
+    <div class="item">
+      <img src="https://i.imgur.com/3ZxF4bM.jpg" alt="Jeans Urbanos" />
+      <p>Jeans Urbanos - $40.00</p>
+      <button>Ver carrito</button>
+    </div>
+    <div class="item">
+      <img src="https://i.imgur.com/4AxF5cN.jpg" alt="Hoodie Urbano" />
+      <p>Hoodie Urbano - $60.00</p>
+      <button>Ver carrito</button>
+    </div>
+    <div class="item">
+      <img src="https://i.imgur.com/5BxF6dO.jpg" alt="Camiseta Grafiti" />
+      <p>Camiseta Grafiti - $30.00</p>
+      <button>Ver carrito</button>
+    </div>
+  </section>
+
+  <aside class="carrito">
+    <h3>Carrito</h3>
+    <p>Su carrito está vacío</p>
+    <button onclick="mostrarCarrito()">Ver carrito</button>
+  </aside>
+
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" />
+      <input type="email" placeholder="Tu correo electrónico" />
+      <textarea placeholder="Tu mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2024 Streetwear - Tienda de Ropa Urbana
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
